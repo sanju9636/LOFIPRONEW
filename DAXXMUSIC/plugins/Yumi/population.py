@@ -7,7 +7,7 @@ from DAXXMUSIC import app
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/ALONE_xD_MUSIC_BOT?startgroup=true"),
     ],
 ]
 
@@ -35,14 +35,14 @@ def country_command_handler(client: Client, message: Message):
                 f"๏ ɴᴀᴍᴇ ➠ {country_name}\n"
                 f"๏ ᴄᴀᴘɪᴛᴀʟ ➠ {capital}\n"
                 f"๏ ᴘᴏᴘᴜʟᴀᴛɪᴏɴ ➠ {population}\n\n"
-                f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+                f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ˹𝙻𝙾𝙵𝙸 ✗ 𝙼𝚄𝚂𝙸𝙲˼"
             )
         else:
             response_text = "✦ Error fetching country information from the API."
     except requests.exceptions.HTTPError as http_err:
         response_text = f"✦ HTTP error occurred Enter correct Country code"
     except Exception as err:
-        response_text = f"✦ ᴇʀʀᴏʀ ➠ @H_CC_HELP"
+        response_text = f"✦ ᴇʀʀᴏʀ ➠ @TitanXSupport"
 
     # Send the response to the Telegram chat
     message.reply_text((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
