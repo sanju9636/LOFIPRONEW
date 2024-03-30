@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/ALONE_xD_MUSIC_BOT?startgroup=true"),
     ],
 ]
 
@@ -34,7 +34,7 @@ async def get_group_status(_, message: Message):
         f"๏ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ➠ {total_members}\n"
         f"๏ ᴜsᴇʀɴᴀᴍᴇ ➠ @{group_username}\n"
         f"๏ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ➠ {group_description or 'N/A'}\n\n"
-        f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ɴ ʏ ᴋ ᴀ ᴀ࿐"
+        f"๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ˹𝙻𝙾𝙵𝙸 ✗ 𝙼𝚄𝚂𝙸𝙲˼"
     )
     
     await message.reply((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
